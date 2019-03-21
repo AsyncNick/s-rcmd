@@ -1,0 +1,28 @@
+{
+  "name": "s-rcmd",
+  "version": "1.0.0",
+  "description": "A Simple, and pretty command line interaction printer",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "prettier --write *.js",
+    "test": "node test.js"
+  },
+  "package-name": "@double0nick/s-rcmd",
+  "keywords": [
+    "cmd",
+    "simple",
+    "pretty",
+    "rainbow",
+    "print",
+    "printfn",
+    "console.log",
+    "console",
+    "log"
+  ],
+  "author": "nicky laczko",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.2"
+  },
+  "devDependencies": {}
+}
